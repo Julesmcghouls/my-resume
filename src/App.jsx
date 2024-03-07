@@ -48,6 +48,41 @@ function App() {
         </ul>
       </section>
 
+      // Certifications section
+<section className="mb-5">
+  <h2>Certifications</h2>
+  <ul className="list-group">
+    {/* List your certifications here */}
+    <li className="list-group-item">Certified Web Developer - CodeSchool</li>
+    <li className="list-group-item">AWS Certified Solutions Architect</li>
+    {/* Add more list items for other certifications */}
+  </ul>
+</section>
+
+// Projects section
+<section className="mb-5">
+  <h2>Projects</h2>
+  <div className="card">
+    <div className="card-body">
+      <h3 className="card-title">Portfolio Website</h3>
+      <p className="card-text">Developed a personal portfolio website to showcase my work and skills in web development.</p>
+      {/* Add links or descriptions for more projects */}
+    </div>
+  </div>
+  {/* Add more cards for other projects */}
+</section>
+
+// Languages section
+<section className="mb-5">
+  <h2>Languages</h2>
+  <ul className="list-group">
+    {/* List the languages you speak here */}
+    <li className="list-group-item">English - Native proficiency</li>
+    <li className="list-group-item">Spanish - Conversational</li>
+    {/* Add more list items for other languages */}
+  </ul>
+</section>
+
       {/* Footer with contact info */}
       <footer className="text-center mt-5">
         <p>Contact me at: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>

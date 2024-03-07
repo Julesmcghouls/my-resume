@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // Ensure you have an App.css for custom styles
+import './App.css';
 
 // The App component is the main component of your resume
 function App() {
